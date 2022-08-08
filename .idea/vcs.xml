@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson1/Remains" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson1/RoundingNumber" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson1/formula" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson1/sum2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson1/sun3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson2/AscendingOrder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson2/Divider" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson2/EvenOrOdd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson2/MaxNum" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson2/NearestNumber" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson2/Random" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson2/Sequence" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson2/SumInt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson2/SumNum" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/lesson2/interval" vcs="Git" />
+  </component>
+</project>
