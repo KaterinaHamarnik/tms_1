@@ -4,53 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76334d8-58cf-4026-a42c-619bf571814d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TMS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson1/Remains/Remains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson1/RoundingNumber/Rounding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson1/sun3/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/AscendingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Divider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/EvenOrOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/MaxNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/NearestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/SumInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/SumNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/random.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2_2/CycleWhile/CycleWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2_2/NegativeNumber/NegativeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2_2/NegativeSubsequence/NegativeSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2_2/PositiveOrNegative/PositiveOrNegative.java" afterDir="false" />
+    <list default="true" id="a76334d8-58cf-4026-a42c-619bf571814d" name="Changes" comment="qw">
       <change afterPath="$PROJECT_DIR$/src/lesson2_2/ReverseOrder/ReverseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2_2/SquareNumber/SquareNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2_2/SumOfNumbers/SumOfNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2_2/Temperature/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2_2/TimeOfTheYear/TimeOfTheYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2_2/TimeOfTheYearIf_Else/TimeOfTheYearIfElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3/AscendingOrder/AscendingOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3/DirectAndReverseOrder/DirectAndReverseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3/Ex/Ex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3/MaxAndMin/MaxAndMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3/MaxAndMinIndex/MaxAndMinIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3/NullElements/NullElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson4/ChessBoard/ChessBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson4/Ex/Ex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson4/SumOfElementsOnMainDiagonal/SumOfElementsOnMainDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson4/SumOfElementsOnSecondaryDiagonal/SumOfElementsOnSecondaryDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson4/TwoDimensionalArray/TwoDimensionalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson5/Ex/Ex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson1/formula/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson1/sum2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson1/sum2/sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/sum2/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Ex/Ex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +137,14 @@
       <option name="presentableId" value="Default" />
       <updated>1658856819057</updated>
     </task>
+    <task id="LOCAL-00001" summary="qw">
+      <created>1659984094960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659984094960</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +157,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qw" />
+    <option name="LAST_COMMIT_MESSAGE" value="qw" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
