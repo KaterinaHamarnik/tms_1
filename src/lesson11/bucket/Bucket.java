@@ -2,20 +2,18 @@ package lesson11.bucket;
 
 import java.util.*;
 
-public class Bucket {
-    private ArrayList <String> collectionOfFruits = new ArrayList<>();
-    Apple apple = new Apple();
-    Orange orange = new Orange();
-    Banana banana = new Banana();
+public class Bucket implements IntFruit {
+    private ArrayList <Object> collectionOfFruits = new ArrayList<>();
 
-    public void putFruit(String fruit){
+
+    public void putFruit(Object fruit){
         if (collectionOfFruits.size() < 8) {
-            if (fruit.equals(apple.name)) {
-                collectionOfFruits.add(apple.name);
-            } else if (fruit.equals(orange.name)) {
-                collectionOfFruits.add(orange.name);
-            } else if (fruit.equals(banana.name)) {
-                collectionOfFruits.add(banana.name);
+            if (fruit.equals(apple)) {
+                collectionOfFruits.add(new Apple());
+            } else if (fruit.equals(orange)) {
+                collectionOfFruits.add(new Orange());
+            } else if (fruit.equals(banana)) {
+                collectionOfFruits.add(new Banana());
             } else {
                 System.out.println("Put only apple, orange or banana");
             }
@@ -24,15 +22,16 @@ public class Bucket {
         }
     }
 
-    public void takeFruit (){
+    public Object takeFruit (){
         if (collectionOfFruits.size() == 0){
             System.out.println("ArrayList is empty!");
         } else {
-            LinkedList<String> linkedListOfFruit = new LinkedList<>(collectionOfFruits);
+            LinkedList <Object> linkedListOfFruit = new LinkedList<>(collectionOfFruits);
             collectionOfFruits.clear();
             linkedListOfFruit.removeFirst();
             collectionOfFruits.addAll(linkedListOfFruit);
         }
+        return collectionOfFruits;
     }
 
     public void showBucket(){

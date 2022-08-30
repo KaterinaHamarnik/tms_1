@@ -1,25 +1,16 @@
 package lesson11.bucket;
 
-public class Main {
+public class Main implements IntFruit{
     public static void main(String[] args) {
         Bucket bucket = new Bucket();
-        bucket.putFruit("Apple");
+        bucket.putFruit(apple);
+        bucket.showBucket();
+        bucket.putFruit(orange);
+        bucket.showBucket();
+        bucket.putFruit(banana);
         bucket.showBucket();
         bucket.takeFruit();
         bucket.showBucket();
-        bucket.putFruit("Apple");
-        bucket.putFruit("Orange");
-        bucket.putFruit("Banana");
-        bucket.putFruit("Apple");
-        bucket.takeFruit();
-        bucket.showBucket();
-        bucket.putFruit("Apple");
-        bucket.putFruit("Apple");
-        bucket.putFruit("Apple");
-        bucket.putFruit("Apple");
-        bucket.showBucket();
-        bucket.putFruit("Apple");
-        bucket.showBucket();
-        bucket.putFruit("Apple");
+
     }
 }
