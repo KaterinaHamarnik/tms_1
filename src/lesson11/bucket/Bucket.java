@@ -2,39 +2,29 @@ package lesson11.bucket;
 
 import java.util.*;
 
-public class Bucket implements IntFruit {
-    private ArrayList <Object> collectionOfFruits = new ArrayList<>();
+public class Bucket {
+    private LinkedList <Fruits> collectionOfFruits = new LinkedList<>();
 
 
-    public void putFruit(Object fruit){
+    public void putFruit(Fruits fruit){
         if (collectionOfFruits.size() < 8) {
-            if (fruit.equals(apple)) {
-                collectionOfFruits.add(new Apple());
-            } else if (fruit.equals(orange)) {
-                collectionOfFruits.add(new Orange());
-            } else if (fruit.equals(banana)) {
-                collectionOfFruits.add(new Banana());
-            } else {
-                System.out.println("Put only apple, orange or banana");
-            }
+            collectionOfFruits.add(fruit);
         } else {
             System.out.println("Bucket is full");
+            new ArrayList<String>();
         }
     }
 
-    public Object takeFruit (){
+    public Fruits takeFruit (){
         if (collectionOfFruits.size() == 0){
-            System.out.println("ArrayList is empty!");
+            System.out.println("Bucket is empty!");
+            return null;
         } else {
-            LinkedList <Object> linkedListOfFruit = new LinkedList<>(collectionOfFruits);
-            collectionOfFruits.clear();
-            linkedListOfFruit.removeFirst();
-            collectionOfFruits.addAll(linkedListOfFruit);
+            return collectionOfFruits.removeFirst();
         }
-        return collectionOfFruits;
     }
 
     public void showBucket(){
-        System.out.println(collectionOfFruits);
+        System.out.println(collectionOfFruits.toString());
     }
 }

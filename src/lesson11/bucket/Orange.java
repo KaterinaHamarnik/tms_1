@@ -1,4 +1,4 @@
 package lesson11.bucket;
 
-public class Orange {
+public class Orange extends Fruits{
 }
