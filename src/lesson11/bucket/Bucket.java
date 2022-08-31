@@ -11,7 +11,6 @@ public class Bucket {
             collectionOfFruits.add(fruit);
         } else {
             System.out.println("Bucket is full");
-            new ArrayList<String>();
         }
     }
 
@@ -25,6 +24,6 @@ public class Bucket {
     }
 
     public void showBucket(){
-        System.out.println(collectionOfFruits.toString());
+        System.out.println(collectionOfFruits);
     }
 }
